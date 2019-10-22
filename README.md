@@ -37,3 +37,5 @@ eval $(ssh-agent -s)
 # make ssh agent to actually use copied key
 ssh-add ~/.ssh/id_rsa
 ```
+
+If `ssh-add` doesn't add doesn't permanently add the keys, try suggestions from [here](https://stackoverflow.com/questions/3466626/how-to-permanently-add-a-private-key-with-ssh-add-on-ubuntu).
